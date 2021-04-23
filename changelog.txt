@@ -1,0 +1,4 @@
+1.2.1 - Minor changes and fixes.
+1.2.0 - New button for delete last entry. New button for clean fields. Improved design.
+1.1.0 - Now have 4 columns instead of 1. The input text now is justified. Changes for possibles new features. Minor fixes.
+1.0.0 - Initial Release.
