@@ -1,0 +1,6 @@
+/.idea/
+/build/main/
+/dist/main/
+/venv/Lib/site-packages/
+/venv/Scripts/
+/venv/pyvenv.cfg
