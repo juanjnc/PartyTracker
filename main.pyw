@@ -32,13 +32,13 @@ class Tracker(tk.Frame):
         self.btn_1.configure(command=erase)
         init_label = tk.Label(self, text='Initiative/Round Order', font=('Arial', 10), fg='red')
         init_label.grid(columnspan=2)
-        init = tk.Entry(self, font=('Arial', 10), justify='center')
+        init = tk.Entry(self, font=('Arial', 10), justify='center', fg='red4')
         init.grid(columnspan=2)
         name_label = tk.Label(self, text='Name', font=('Arial', 10), fg='blue')
         name_label.grid(columnspan=2)
-        name = tk.Entry(self, font=('Arial', 10), justify='center')
+        name = tk.Entry(self, font=('Arial', 10), justify='center', fg='blue4')
         name.grid(columnspan=2)
-        hp_label = tk.Label(self, text='Hit/Life Points', font=('Arial', 10), justify='center')
+        hp_label = tk.Label(self, text='Hit/Life Points', font=('Arial', 10), justify='center', fg='green')
         hp_label.grid(columnspan=2)
         hp = tk.Entry(self, font=('Arial', 10), justify='center')
         hp.grid(columnspan=2)
@@ -46,7 +46,7 @@ class Tracker(tk.Frame):
         ac_label.grid(columnspan=2)
         ac = tk.Entry(self, font=('Arial', 10), justify='center')
         ac.grid(columnspan=2)
-        clean_btn = tk.Button(self, text='Clean Entry', command=clean, font=('Arial', 10), cursor='hand2', bd=2)
+        clean_btn = tk.Button(self, text='Clean Entry', command=clean, font=('Arial', 10), cursor='hand2', bd=2, fg='yellow4')
         clean_btn.grid(columnspan=2)
 
 
@@ -70,7 +70,7 @@ class Menus(tk.Menu):  # Gestiona la barra de menú
 
     @staticmethod
     def version():
-        mb.showinfo('Version', 'Initiative Tracker 1.2.1')
+        mb.showinfo('Version', 'Initiative Tracker 1.2.2')
 
     @staticmethod
     def changes():
