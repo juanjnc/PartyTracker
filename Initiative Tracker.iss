@@ -3,8 +3,8 @@
 
 #define MyAppName "Initiative Tracker"
 #define MyAppVersion "2.0.1"
-#define MyAppPublisher "Juan José Núñez"
-#define MyAppURL "https://www.example.com/"
+#define MyAppPublisher "Juan José Núñez Cózar"
+#define MyAppURL "https://github.com/shurkun-juan/PartyTracker"
 #define MyAppExeName "main.exe"
 #define MyAppAssocName MyAppName + " File"
 #define MyAppAssocExt ".myp"

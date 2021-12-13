@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.pyw'],
-             pathex=['C:\\Users\\shurk\\PycharmProjects\\PartyTraker'],
+             pathex=['.\\PartyTraker'],
              binaries=[],
              datas=[],
              hiddenimports=[],
