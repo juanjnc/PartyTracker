@@ -8,7 +8,7 @@ def version():
 
 def info():
     mb.showinfo('Info Initiative Tracker', 'Copyright (c) 2021 Juan José Núñez Cózar under MIT License'
-                                           '\nWebsite: https://github.com/shurkun-juan/PartyTracker'
+                                           '\nWebsite: https://github.com/juanjnc/PartyTracker'
                                            '\n\nProgrammed in Python.\n(https://www.python.org/)'
                                            '\n\nIcons made by Ana Canalejo.\n(https://www.deviantart.com/miyuminineko)'
                                            '\n\nThanks to Rubén, Steph and Mauro for the help and support provided.')
