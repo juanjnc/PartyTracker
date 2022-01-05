@@ -1,5 +1,9 @@
+from sys import platform
 from tkinter import messagebox as mb
-from os import startfile
+try:
+    from os import startfile
+except ImportError:
+    from subprocess import call
 
 
 def version():
@@ -36,7 +40,11 @@ def mitlicense(): return mb.showinfo('License', 'MIT License'
 
 
 def changes():
-    startfile('changelog.txt')
+    if platform == "win32":
+        return startfile(r'changelog.txt')
+    else:  # Solución encontrada facilmente en web, parece un problema comun
+        opener = "open" if platform == "darwin" else "xdg-open"
+        return call([opener, r'changelog.txt'])
 
 
 def create_cerrar_method(root):
