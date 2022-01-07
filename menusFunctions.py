@@ -1,9 +1,9 @@
-from sys import platform
+from sys import platform  # Comprueba el SO
 from tkinter import messagebox as mb
-try:
+# Usa un import u otro según SO
+if platform == "win32":
     from os import startfile
-except ImportError:
-    from subprocess import call
+from subprocess import call
 
 
 def version():
