@@ -1,31 +1,5 @@
 # PartyTracker
 
-## --ESPAÑOL--
-
-Proyecto para poder tener una plantilla con información de los personajes para jugar a juegos de mesa a la par que aprendo Python.
-Estoy totalmente abierto a sugerencias, comentarios y consejos para seguir aprendiendo.
-
-### El programa en si:
-
-* Requiere Python 3
-
-### Archivos adicionales:
-
-* El archivo .SPEC lo uso con PyInstaller (https://pypi.org/project/pyinstaller/) para crear una app que no requiera tener Python instalado.
-* El archivo .ISS es para crear un instalador con InnoSetup (https://jrsoftware.org/isinfo.php).
-
-### Es multiplataforma?:
-
-* En principio el código debería funcionar en Windows, Linux o Mac de 64 bits. Pero como uso Windows no he podido comprobarlo.
-  * Comprobado y preparado para Linux el 2022/01/05
-
-
-### Hay instaladores?:
-
-* En la carpeta Output hay un instalador para Windows creado por mí para facilitarles el uso a mis amigos, a veces da falsos positivos, pero se me escapa a mi conocimiento.
-* Para Linux o Mac no hay, pero si sabes como hacerlo, puedes crearlo sin problemas.
-
-
 ## --ENGLISH--
 
 A project in order to have a template with info of the charactes to play tabletop games while learning Python.
@@ -55,3 +29,34 @@ I'm completely open to suggestions, comments and tips for learning.
 Copyright (c) 2021 Juan José Núñez Cózar under MIT License.
 
 See the LICENSE file for more information.
+
+
+## --ESPAÑOL--
+
+Proyecto para poder tener una plantilla con información de los personajes para jugar a juegos de mesa a la par que aprendo Python.
+Estoy totalmente abierto a sugerencias, comentarios y consejos para seguir aprendiendo.
+
+### El programa en si:
+
+* Requiere Python 3
+
+### Archivos adicionales:
+
+* El archivo .SPEC lo uso con PyInstaller (https://pypi.org/project/pyinstaller/) para crear una app que no requiera tener Python instalado.
+* El archivo .ISS es para crear un instalador con InnoSetup (https://jrsoftware.org/isinfo.php).
+
+### Es multiplataforma?:
+
+* En principio el código debería funcionar en Windows, Linux o Mac de 64 bits. Pero como uso Windows no he podido comprobarlo.
+  * Comprobado y preparado para Linux el 2022/01/05
+  
+### Hay instaladores?:
+
+* En la carpeta Output hay un instalador para Windows creado por mí para facilitarles el uso a mis amigos, a veces da falsos positivos, pero se me escapa a mi conocimiento.
+* Para Linux o Mac no hay, pero si sabes como hacerlo, puedes crearlo sin problemas.
+
+## Copyright
+
+Copyright (c) 2021 Juan José Núñez Cózar bajo la Licencia MIT.
+
+Mira el archivo LICENSE para más información.
